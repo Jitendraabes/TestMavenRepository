@@ -1,4 +1,4 @@
-	
+
 package com.mastercard.TestMavenProject;
 
 /**
@@ -7,10 +7,18 @@ package com.mastercard.TestMavenProject;
  */
 public class App 
 {
+	
+    
     public static void main( String[] args )
     {
-        System.out.println( "Hello Maven World!" );
-        System.out.println("Will run maven in Ec2 as well");
-System.out.println("This piece I run from Ec2 using maven");
+        System.out.println("Hello Maven World!" );
+        System.out.println("Will run maven in Ec2 as well...");
+        System.out.println("This piece I run from Ec2 using maven...");
+         AddNumber addNumber =new AddNumber();
+         addNumber.addNumbers();
+      
     }
+    
+    
 }
+
